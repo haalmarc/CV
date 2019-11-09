@@ -3,7 +3,7 @@ import './index.css';
 
 const Footer = () => (
   <footer>
-    <h4>SoMe</h4>
+    <h4>SoMe, 2019</h4>
   </footer>
 );
 
