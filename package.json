@@ -1,5 +1,5 @@
 {
-  "homepage": "http://haalmarc.github.io/cv.git",
+  "homepage": "http://haalmarc.github.io/cv.git", /* lagt til for github pages */
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build", /* lagt til for github pages */
+    "deploy": "gh-pages -d build", /* lagt til for github pages */
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
