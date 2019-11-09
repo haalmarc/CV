@@ -1,0 +1,23 @@
+.infoBox {
+  margin: 2em 5%;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.jobtitleBox {
+  width: 100%;
+  background-color: #09172c;
+  color: white;
+  padding: 1em;
+}
+
+.dateBox {
+  background-color: #8CBAFF;
+  color: white;
+  padding: 1em;
+}
+
+.jobDesc {
+  background-color: #1F62C7;
+  color: white;
+  padding: 1em;
+}
