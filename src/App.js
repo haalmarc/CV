@@ -39,7 +39,7 @@ function App() {
         job="IT-utvikler ved Studentmediene"
         date="2019 - d.d."
         jobdesc="Arbeid på www.ibok.no, som er Norges største markedsplass for kjøp og salg av brukte skolebøker på nett. Vedlikehold av nettsiden og implementere nye features."
-        tech="React, JS, HTML, CSS."
+        tech="React, JS, HTML, CSS"
         link="www.ibok.no"
       />
       <Infobox 
