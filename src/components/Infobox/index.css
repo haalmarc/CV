@@ -1,3 +1,15 @@
+h1 {
+  margin: 1em;
+}
+
+a {
+  color: white;
+}
+
+.readmore {
+  margin-top: 2em;
+}
+
 .infoBox {
   margin: 2em 5%;
   box-shadow: 5px 5px 5px #888888;
@@ -20,4 +32,15 @@
   background-color: #1F62C7;
   color: white;
   padding: 1em;
+}
+
+.tech {
+  font-style: italic;
+}
+
+.line {
+  width: 95%;
+  height: 1px;
+  background-color: #09172c;
+  margin: 5em auto;
 }
