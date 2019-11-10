@@ -8,10 +8,6 @@ body {
   background-color: lightgrey;
 }
 
-nav a {
-  display: flex;
-  justify-content: center;
-  color: #09172c;
-  margin: 1em;
-  font-size: 1.2em;
+.username {
+  text-align: center;
 }

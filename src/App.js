@@ -8,13 +8,9 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <h1>
-        Min CV
+      <h1 className="username">
+        Marcus Haaland
       </h1>
-      <nav>
-        <p><a href="#utdanning">Utdanning</a></p>
-        <p><a href="#erfaring">Erfaring</a></p>
-      </nav>
       <h1 id="utdanning">
         Utdanning
       </h1>

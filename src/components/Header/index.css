@@ -6,8 +6,63 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .faIcon {
   font-size: 2em;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+/* Nav:hover */
+/* Hover stilsetting inspirert av: https://codepen.io/Taylor132465/pen/ONOzeJ */
+.navElement,
+.navElement:after,
+.navElement:before {
+  transition: all .5s;
+}
+
+.navElement {
+  position: relative;
+  transition: all 1s;
+}
+
+.navElement:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+.navElement:hover:after {
+  width: 100%;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
+
+.navElement:hover {
+  opacity: 0.5;
+}
+
+/* Nav:hover slutt */
