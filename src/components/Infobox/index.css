@@ -39,10 +39,3 @@ a {
 .tech {
   font-style: italic;
 }
-
-.line {
-  width: 95%;
-  height: 1px;
-  background-color: #09172c;
-  margin: 5em auto;
-}

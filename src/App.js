@@ -11,6 +11,7 @@ function App() {
       <h1 className="username">
         Marcus Haaland
       </h1>
+      <hr></hr>
       <h1 id="utdanning">
         Utdanning
       </h1>
