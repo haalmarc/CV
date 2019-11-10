@@ -7,3 +7,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.social {
+  font-size: 1.5em;
+  margin: 0 1em;
+}
