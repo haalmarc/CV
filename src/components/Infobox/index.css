@@ -26,13 +26,14 @@ a {
   background-color: #8CBAFF;
   color: white;
   padding: 1em;
-  text-shadow: 1px 1px 2px black; 
+  text-shadow: 1px 1px 1px #09172c; 
 }
 
 .jobDesc {
   background-color: #1F62C7;
   color: white;
   padding: 1em;
+  font-size: 1.1em;
 }
 
 .tech {
