@@ -7,3 +7,10 @@
 body {
   background-color: lightgrey;
 }
+
+nav a {
+  display: flex;
+  justify-content: center;
+  color: #09172c;
+
+}

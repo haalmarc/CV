@@ -7,7 +7,7 @@ const Footer = () => (
     <a href="https://www.linkedin.com/in/marcus-haaland-3706b3162/" className="social" rel="noopener noreferrer" target="_blank">
     <i className="fa fa-linkedin"></i></a>
     <a href="https://github.com/haalmarc" className="social" rel="noopener noreferrer" target="_blank">
-    <i class="fa fa-github"></i></a>
+    <i className="fa fa-github"></i></a>
     
   </footer>
 );

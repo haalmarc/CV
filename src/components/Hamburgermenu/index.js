@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 function myFunction(x) {
-  x.classList.toggle("change");
+  x.classNameList.toggle("change");
 }
 
 const Hamburgermenu = () => (
