@@ -37,7 +37,7 @@ function App() {
         date="2019 - d.d."
         jobdesc="Arbeid på www.ibok.no, som er Norges største markedsplass for kjøp og salg av brukte skolebøker på nett. Vedlikehold av nettsiden og implementere nye features."
         tech="React, JS, HTML, CSS"
-        link="www.ibok.no"
+        link="https://www.ibok.no"
       />
       <Infobox 
         job="Læringsassistent i emnet Eksperter i Team"
@@ -50,7 +50,7 @@ function App() {
         date="2018 - 2019"
         jobdesc="Støttehjulet bedriver organisasjonspsykologisk rådgivning for hovedsakelig andre studentorganisasjoner. Planlegging og gjennomføring av kurs i temaer som ledelse og kommunikasjon. Vedlikeholde organisasjonens nettside."
         tech="Wordpress"
-        link="www.stottehjulet.no"
+        link="https://www.stottehjulet.no"
       />
       <Infobox 
         job="Presse- og informasjonsassistent i Forsvaret"
