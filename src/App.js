@@ -12,7 +12,8 @@ function App() {
         Marcus Haaland
       </h1>
       <hr></hr>
-      <h1 id="utdanning">
+      <a class="anchor" id="utdanning"></a>
+      <h1>
         Utdanning
       </h1>
       <Infobox 
@@ -29,7 +30,8 @@ function App() {
       />
       <div className="line">
       </div>
-      <h1 id="erfaring">
+      <a class="anchor" id="erfaring"></a>
+      <h1>
         Erfaring
       </h1>
       <Infobox 

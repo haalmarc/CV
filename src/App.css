@@ -18,6 +18,13 @@ hr {
   margin: auto;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -40px;
+  visibility: hidden;
+}
+
 .username {
   font-weight: normal;
   margin: 1em 1em 0.5em 1em;
