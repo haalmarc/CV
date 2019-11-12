@@ -12,7 +12,7 @@ function App() {
         Marcus Haaland
       </h1>
       <hr></hr>
-      <a class="anchor" id="utdanning"></a>
+      <a class="anchor" id="utdanning" href="#utdanning">Hidden text</a>
       <h1>
         Utdanning
       </h1>
@@ -30,7 +30,7 @@ function App() {
       />
       <div className="line">
       </div>
-      <a class="anchor" id="erfaring"></a>
+      <a class="anchor" id="erfaring" href="#erfaring">Hidden text</a>
       <h1>
         Erfaring
       </h1>
