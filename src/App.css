@@ -21,7 +21,6 @@ hr {
 a.anchor {
   display: block;
   position: relative;
-  top: -40px;
   visibility: hidden;
 }
 
