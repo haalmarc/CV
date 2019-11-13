@@ -66,3 +66,13 @@ nav a {
 }
 
 /* Nav:hover slutt */
+
+/* Hamburgermeny */ 
+
+button {
+  border: none;
+  background: none;
+  color: white;
+  display: none;
+}
+
