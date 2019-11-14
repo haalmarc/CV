@@ -10,10 +10,6 @@ header {
   top: 0;
 }
 
-.faIcon {
-  font-size: 2em;
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -67,12 +63,4 @@ nav a {
 
 /* Nav:hover slutt */
 
-/* Hamburgermeny */ 
-
-button {
-  border: none;
-  background: none;
-  color: white;
-  display: none;
-}
 
