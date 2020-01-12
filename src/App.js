@@ -52,7 +52,7 @@ function App() {
         date="2018 - 2019"
         jobdesc="Støttehjulet bedriver organisasjonspsykologisk rådgivning for hovedsakelig andre studentorganisasjoner. Planlegging og gjennomføring av kurs i temaer som ledelse og kommunikasjon. Vedlikeholde organisasjonens nettside."
         tech="Wordpress"
-        link="https://www.stottehjulet.no"
+        link="http://stottehjulet.no/"
       />
       <Infobox 
         job="Presse- og informasjonsassistent i Forsvaret"

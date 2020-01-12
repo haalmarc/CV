@@ -12,7 +12,9 @@ const Infobox = (props) => (
     <div className="jobDesc">
       {props.jobdesc}
       <p className="tech">{props.tech}</p>
-      <p className="readmore"><a href={props.link} rel="noopener noreferrer" target="_blank">Les mer</a></p>
+      <p className="readmore">
+        <a href={props.link} rel="noopener noreferrer" target="_blank">Les mer</a>
+      </p>
     </div>
   </div>
 );

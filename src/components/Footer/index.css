@@ -12,3 +12,8 @@ footer {
   font-size: 1.5em;
   margin: 0 1em;
 }
+
+.social:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
