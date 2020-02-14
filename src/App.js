@@ -79,6 +79,13 @@ function App() {
         tech="React, Bootstrap, Firebase"
         link="https://s.ntnu.no/mineemner"
       />
+      <Infobox 
+        job="Nettside for dansegruppe"
+        date=""
+        jobdesc="Skoleprosjekt i gruppe hvor jeg bidro i designavgjørelser og hadde hovedansvar for responsivitet og å minimere overlappende kode. Jeg var også bindeledd mellom veileder og gruppa, og fulgte opp oppgaver."
+        tech="HTML, CSS, Javascript"
+        link="https://s.ntnu.no/webtek17"
+      />
       <Footer />
     </div>
   );
