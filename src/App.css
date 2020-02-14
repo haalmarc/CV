@@ -28,10 +28,3 @@ a.anchor {
   font-weight: normal;
   margin: 1em 1em 0.5em 1em;
 }
-
-.line {
-  width: 95%;
-  height: 1px;
-  background-color: #09172c;
-  margin: 5em auto;
-}

@@ -6,8 +6,9 @@ class Header extends React.Component {
     return (
       <header>
         <nav>
-          <a href="#utdanning" className="navElement">Utdanning</a>
           <a href="#erfaring" className="navElement">Erfaring</a>
+          <a href="#utdanning" className="navElement">Utdanning</a>
+          <a href="#prosjekter" className="navElement">Prosjekter</a>
           <a href="#footer" className="navElement">Kontakt</a>
         </nav>
       </header>

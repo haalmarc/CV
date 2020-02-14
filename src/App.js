@@ -11,29 +11,18 @@ function App() {
       <h1 className="username">
         Marcus Haaland
       </h1>
-      <hr></hr>
-      <a className="anchor" id="utdanning" href="#utdanning">Hidden text</a>
-      <h1>
-        Utdanning
-      </h1>
-      <Infobox 
-        job="Informatikk ved NTNU"
-        date="2019 - 2022"
-        jobdesc="Lærer å få en helhetsforståelse for å lage gode IT-systemer. Førsteåret inkluderer gruppearbeid i å lage nettside fra bunn med kunde, programmering i Python og Java, menneske-maskin-interaksjon og om grunnleggende kommunikasjonssikkerhet."
-        link="https://www.ntnu.no/studier/bit/om"
-      />
-      <Infobox 
-        job="Psykologi ved NTNU"
-        date="2016 - 2019"
-        jobdesc="Lært om menneskes fungering som individ og i grupper og deres kommunikasjon mellom mennesker. Har utviklet formidlingsevne, i tillegg til analytiske evner. Avslutningsvis gjennomførte jeg et forskningsprosjekt om ledere sine kommunikasjonsstrategier."
-        link="https://www.ntnu.no/studier/bpsy"
-      />
-      <div className="line">
-      </div>
+      <hr />
       <a className="anchor" id="erfaring" href="#erfaring">Hidden text</a>
       <h1>
         Erfaring
       </h1>
+      <Infobox 
+        job="IT-utvikler ved Spark"
+        date="2019 - d.d."
+        jobdesc="Spark er en gratis veiledningstjeneste for studenter som ønsker å lage eller delta i en startup. Utvikling av webapplikasjon som håndterer informasjon rundt startups."
+        tech="React, Firebase, Wordpress, JS, HTML, CSS."
+        link="https://www.sparkntnu.no"
+      />
       <Infobox 
         job="IT-utvikler ved Studentmediene"
         date="2019 - d.d."
@@ -60,6 +49,35 @@ function App() {
         jobdesc="Dokumenterte avdelingens virksomheter, lagde medietekster til bruk for sosiale medier og for avdelingens leiravis og årbok."
         tech="InDesign, Photoshop"
         link="https://www.facebook.com/Grensevakten/"
+      />
+      <hr />
+      <a className="anchor" id="utdanning" href="#utdanning">Hidden text</a>
+      <h1>
+        Utdanning
+      </h1>
+      <Infobox 
+        job="Informatikk ved NTNU"
+        date="2019 - 2022"
+        jobdesc="Lærer å få en helhetsforståelse for å lage gode IT-systemer. Førsteåret inkluderer gruppearbeid i å lage nettside fra bunn med kunde, programmering i Python og Java, menneske-maskin-interaksjon og om grunnleggende kommunikasjonssikkerhet."
+        link="https://www.ntnu.no/studier/bit/om"
+      />
+      <Infobox 
+        job="Psykologi ved NTNU"
+        date="2016 - 2019"
+        jobdesc="Lært om menneskes fungering som individ og i grupper og deres kommunikasjon mellom mennesker. Har utviklet formidlingsevne, i tillegg til analytiske evner. Avslutningsvis gjennomførte jeg et forskningsprosjekt om ledere sine kommunikasjonsstrategier."
+        link="https://www.ntnu.no/studier/bpsy"
+      />      
+      <hr />
+      <a className="anchor" id="prosjekter" href="#prosjekter">Hidden text</a>
+      <h1>
+        Prosjekter
+      </h1>
+      <Infobox 
+        job="Ressurskilde for emner"
+        date=""
+        jobdesc="En webapplikasjon for deling av nyttige ressurser av emner. Benyttet React og bootstrap i frontend. Benyttet Firebase for database og autentisering. Alle kan legge til ressurser og emner, men bare innloggede kan slette dem."
+        tech="React, Bootstrap, Firebase"
+        link="https://s.ntnu.no/mineemner"
       />
       <Footer />
     </div>
