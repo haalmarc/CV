@@ -74,14 +74,14 @@ function App() {
       </h1>
       <Infobox 
         job="Ressurskilde for emner"
-        date=""
+        date="2020 vår"
         jobdesc="En webapplikasjon for deling av nyttige ressurser av emner. Benyttet React og bootstrap i frontend. Benyttet Firebase for database og autentisering. Alle kan legge til ressurser og emner, men bare innloggede kan slette dem."
         tech="React, Bootstrap, Firebase"
         link="https://s.ntnu.no/mineemner"
       />
       <Infobox 
         job="Nettside for dansegruppe"
-        date=""
+        date="2019 høst"
         jobdesc="Skoleprosjekt i gruppe hvor jeg bidro i designavgjørelser og hadde hovedansvar for responsivitet og å minimere overlappende kode. Jeg var også bindeledd mellom veileder og gruppa, og fulgte opp oppgaver."
         tech="HTML, CSS, Javascript"
         link="https://s.ntnu.no/webtek17"

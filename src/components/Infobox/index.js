@@ -5,11 +5,11 @@ const Infobox = ({ job, date, jobdesc, tech, link }) => (
   <div className="infoBox">
     <div className="jobtitleBox">
       <h3>{job}</h3>
-    </div>
-    {date ? (
-      <div className="dateBox">
+      {date ? (
+      <p className="dateBox">
       {date}
-    </div>) : ""}
+    </p>) : ""}
+    </div>
     <div className="jobDesc">
       {jobdesc}
       <p className="tech">{tech}</p>

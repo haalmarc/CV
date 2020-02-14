@@ -28,10 +28,8 @@ a:hover {
 }
 
 .dateBox {
-  background-color: #8CBAFF;
+  font-size: small;
   color: white;
-  padding: 1em;
-  text-shadow: 1px 1px 1px #09172c; 
 }
 
 .jobDesc {
