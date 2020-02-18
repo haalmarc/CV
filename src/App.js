@@ -11,6 +11,7 @@ function App() {
       <h1 className="username">
         Marcus Haaland
       </h1>
+      <p className="aboutme">Informatikkstudent med bakgrunn innen psykologi.</p>
       <hr />
       <a className="anchor" id="erfaring" href="#erfaring">Hidden text</a>
       <h1>
