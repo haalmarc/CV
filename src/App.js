@@ -21,7 +21,7 @@ function App() {
         job="IT-utvikler ved Spark"
         date="2019 - d.d."
         jobdesc="Spark er en gratis veiledningstjeneste for studenter som ønsker å lage eller delta i en startup. Utvikling av webapplikasjon som håndterer informasjon rundt startups."
-        tech="React, Firebase, Wordpress, JS, HTML, CSS."
+        tech="React, Firebase, Wordpress, JS, HTML, CSS"
         link="https://www.sparkntnu.no"
       />
       <Infobox 
