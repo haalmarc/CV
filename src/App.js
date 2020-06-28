@@ -11,7 +11,7 @@ function App() {
       <h1 className="username">
         Marcus Haaland
       </h1>
-      <p className="aboutme">Informatikkstudent med bakgrunn innen psykologi.</p>
+      <p className="aboutme">Nysgjerrig informatikkstudent med bakgrunn innen psykologi.</p>
       <hr />
       <a className="anchor" id="erfaring" href="#erfaring">Hidden text</a>
       <h1>
@@ -20,27 +20,27 @@ function App() {
       <Infobox 
         job="IT-utvikler ved Spark"
         date="2019 - d.d."
-        jobdesc="Spark er en gratis veiledningstjeneste for studenter som ønsker å lage eller delta i en startup. Utvikling av webapplikasjon som håndterer informasjon rundt startups."
+        jobdesc="Utvikling av intern webapplikasjon, 'Basen', som gir veiledere en oversikt over startups. Sommerprosjekt 2020 innebar å utvide Basen til å også tilpasses andre universiteter enn NTNU. Driver også utvikling av Wordpress-nettsiden sparkntnu.no."
         tech="React, Firebase, Wordpress, JS, HTML, CSS"
         link="https://www.sparkntnu.no"
       />
       <Infobox 
         job="IT-utvikler ved Studentmediene"
         date="2019 - d.d."
-        jobdesc="Arbeid på www.ibok.no, som er Norges største markedsplass for kjøp og salg av brukte skolebøker på nett. Vedlikehold av nettsiden og implementere nye features."
+        jobdesc="Arbeid på www.ibok.no, som er Norges største markedsplass for kjøp og salg av brukte skolebøker på nett. Utvikling av ny feature: Få oversikt over bøker ut i fra valgt studieretning."
         tech="React, JS, HTML, CSS"
         link="https://www.ibok.no"
       />
       <Infobox 
         job="Læringsassistent i emnet Eksperter i Team"
-        date="2018 - d.d."
-        jobdesc="Hver student blir del av en tverrfaglig gruppe som skal løse et konkret prosjekt. Som læringsassistent i dette faget ledet jeg samarbeidsøvelser for 20 masterstudenter og bidro til at studentene reflekterte over hva som skal til for å samarbeide godt."
+        date="2018 - 2020."
+        jobdesc="Læringsassistent for tverrfaglige grupper som skal utvikle et konkret prosjekt. Lede samarbeidsøvelser for 20 masterstudenter og bidra til at studentene reflekterer over hvordan man får til gode gruppeprosesser."
         link="https://www.ntnu.no/eit/hva-er-eit"
       />
       <Infobox 
         job="Konsulent og IT-ansvarlig ved Støttehjulet"
         date="2018 - 2019"
-        jobdesc="Støttehjulet bedriver organisasjonspsykologisk rådgivning for hovedsakelig andre studentorganisasjoner. Planlegging og gjennomføring av kurs i temaer som ledelse og kommunikasjon. Vedlikeholde organisasjonens nettside."
+        jobdesc="Støttehjulet bedriver organisasjonspsykologisk rådgivning for andre studentorganisasjoner. Planlegging og gjennomføring av kurs i temaer som ledelse og kommunikasjon. Vedlikeholde organisasjonens nettside."
         tech="Wordpress"
         link="http://stottehjulet.no/"
       />
@@ -76,9 +76,9 @@ function App() {
       <Infobox 
         job="Ressurskilde for emner"
         date="2020 vår"
-        jobdesc="En webapplikasjon for deling av nyttige ressurser av emner. Benyttet React og bootstrap i frontend. Benyttet Firebase for database og autentisering. Alle kan legge til ressurser og emner, men bare innloggede kan slette dem."
+        jobdesc="Webapplikasjon for deling av nettressurser blant studenter."
         tech="React, Bootstrap, Firebase"
-        link="https://s.ntnu.no/mineemner"
+        link="https://mineemner.web.app"
       />
       <Infobox 
         job="Nettside for dansegruppe"
