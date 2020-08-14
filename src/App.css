@@ -33,3 +33,12 @@ a.anchor {
   margin-left: 2em;
   margin-bottom: 0.5em;
 }
+
+.container {
+  max-width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
