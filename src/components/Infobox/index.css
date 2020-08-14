@@ -8,14 +8,15 @@ a:hover {
 }
 
 .readmore {
-  margin-top: 1.5em;
+  position: absolute;
+  bottom: 10px;
 }
 
 .infoBox {
-  margin: 2em 5%;
+  position: relative;
+  margin: 2em 5% 2em 0;
   box-shadow: 3px 2px 10px 1px #888888;
   padding: 1em;
-  width: 400px;
 }
 
 .jobtitleBox {
@@ -32,10 +33,20 @@ a:hover {
 .jobDesc {
   color: black;
   font-size: 1.1em;
+  margin-bottom: 1.5em;
 }
 
 .tech {
   font-style: italic;
   font-size: small;
   margin-top: 0.5em;
+  position: absolute;
+  bottom: 10px;
+  right: 10px
+}
+
+@media screen and (min-width: 992px){
+  .infoBox {
+    width: 40%
+  }
 }

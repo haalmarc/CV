@@ -15,7 +15,12 @@ body {
 
 hr {
   width: 98%;
-  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+.titles {
+  margin: 0;
 }
 
 a.anchor {
@@ -26,11 +31,9 @@ a.anchor {
 
 .username {
   font-weight: normal;
-  margin: 1em 1em 0.5em 1em;
 }
 
 .aboutme {
-  margin-left: 2em;
   margin-bottom: 0.5em;
 }
 
@@ -38,7 +41,13 @@ a.anchor {
   max-width: 100%;
 }
 
-.cardContainer {
-  display: flex;
-  flex-wrap: wrap;
+.content {
+  padding: 2em;
+}
+
+@media screen and (min-width: 992px){
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
