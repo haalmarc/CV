@@ -78,6 +78,10 @@ nav label, #hamburger {
     padding: 10px;
   }
 
+  .hamburger {
+    cursor: pointer;
+  }
+
   /* Break down menu items into vertical */
   nav a {
     display: block;

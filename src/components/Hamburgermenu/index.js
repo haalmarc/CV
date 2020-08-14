@@ -6,11 +6,11 @@ function myFunction(x) {
 }
 
 const Hamburgermenu = () => (
-  <div className="container" onclick={myFunction(this)}>
+  <button className="container" onclick={myFunction(this)}>
     <div className="bar1"></div>
     <div className="bar2"></div>
     <div className="bar3"></div>
-  </div>
+  </button>
 );
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js */

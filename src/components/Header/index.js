@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <header>
         <nav>
-          <label for="hamburger">&#9776;</label>
+          <label htmlFor="hamburger" className="hamburger">&#9776;</label>
           <input type="checkbox" id="hamburger"/>
           <a href="#erfaring" className="navElement">Erfaring</a>
           <a href="#utdanning" className="navElement">Utdanning</a>
