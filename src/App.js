@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Infobox from './components/Infobox';
+import SocialContainer from './components/SocialContainer';
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <div className="content">
+      <div className="firstContent">
         <h1 className="username titles">
           Marcus Haaland
         </h1>
         <p className="aboutme">Nysgjerrig informatikkstudent med bakgrunn innen psykologi.</p>
-        <hr />
+        <SocialContainer />
+      </div>
+      <div className="content">
         <a className="anchor" id="erfaring" href="#erfaring">Hidden text</a>
         <h1 className="titles">
           Erfaring
@@ -95,7 +97,7 @@ function App() {
           />
         </div>
       </div>
-      <Footer />
+      <SocialContainer />
     </div>
   );
 }

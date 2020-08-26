@@ -19,6 +19,13 @@ hr {
   margin-bottom: 2em;
 }
 
+.firstContent {
+  background-color: #1b2a40;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
 .titles {
   margin: 0;
 }
@@ -31,10 +38,6 @@ a.anchor {
 
 .username {
   font-weight: normal;
-}
-
-.aboutme {
-  margin-bottom: 0.5em;
 }
 
 .container {

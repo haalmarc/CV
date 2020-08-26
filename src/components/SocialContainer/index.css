@@ -1,6 +1,5 @@
-footer {
+.socialContainer {
   width: 100%;
-  height: 100px;
   background-color: #1b2a40;
   color: white;
   display: flex;
