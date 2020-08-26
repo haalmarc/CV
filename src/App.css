@@ -48,6 +48,10 @@ a.anchor {
   padding: 2em;
 }
 
+.footer > .socialContainer {
+  height: 100px;
+}
+
 @media screen and (min-width: 992px){
   .cardContainer {
     display: flex;

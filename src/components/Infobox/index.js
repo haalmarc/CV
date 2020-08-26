@@ -1,8 +1,11 @@
 import React from 'react';
 import './index.css';
 
-const Infobox = ({ job, date, jobdesc, tech, link }) => (
+const Infobox = ({ job, date, jobdesc, tech, link, img }) => (
   <div className="infoBox">
+    {img ? (<div>
+      <img src={img} alt="spark" />
+    </div>) : ''}
     <div className="jobtitleBox">
       <h3>{job}</h3>
       {date ? (
