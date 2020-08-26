@@ -34,7 +34,7 @@ function App() {
         </h1>
         <div className="cardContainer">
           <Infobox 
-            job="IT-utvikler ved Spark"
+            job="IT-utvikler ved Spark*"
             date="2019 - d.d."
             jobdesc="Utvikling av intern webapplikasjon, 'Basen', som gir veiledere en oversikt over startups. Sommerprosjekt 2020 innebar å utvide Basen til å også tilpasses andre universiteter enn NTNU. Driver også utvikling av Wordpress-nettsiden sparkntnu.no."
             tech="React, Firebase, Wordpress, JS, HTML, CSS"
