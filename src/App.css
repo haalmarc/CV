@@ -27,7 +27,7 @@ hr {
 }
 
 .titles {
-  margin: 0;
+  margin: 0 3% 0 0;
 }
 
 a.anchor {
@@ -56,5 +56,6 @@ a.anchor {
   .cardContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
