@@ -89,7 +89,7 @@ a.anchor {
 
 .footer > .socialContainer {
   height: 100px;
-  background-color: #1b2a40;
+  background-color: rgb(44, 44, 44);
 }
 
 .aboutMeBox > .socialContainer {
@@ -113,7 +113,7 @@ a.anchor {
 
   .aboutMeBox > .socialContainer {
     position: relative;
-    margin-top: 2em;
+    margin-top: 1em;
     top: 0;
     left: 0;
     transform: none;
