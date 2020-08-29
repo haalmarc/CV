@@ -26,6 +26,7 @@ hr {
   height: 100vh;
   color: white;
   text-align: center;
+  background-position: 91.5%;
 }
 
 .titles {
@@ -40,10 +41,7 @@ a.anchor {
 }
 
 .aboutMeBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: static;
 }
 
 .aboutMe {
@@ -95,7 +93,24 @@ a.anchor {
 }
 
 .aboutMeBox > .socialContainer {
-  margin-top: 1em;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutMeBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .aboutMeBox > .socialContainer {
+    position: relative;
+    margin-top: 2em;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -103,5 +118,5 @@ a.anchor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+  }  
 }

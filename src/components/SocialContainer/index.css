@@ -8,11 +8,18 @@
 
 .social {
   font-size: 1.5em;
-  margin: 0 1em;
+  margin: 0 0.6em;
   color: white;
 }
 
 .social:hover {
   opacity: 0.6;
   transition: 0.2s;
+}
+
+@media screen and (min-width: 992px){
+  .social {
+    margin: 0 1em;
+  }
+
 }
