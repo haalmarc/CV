@@ -37,7 +37,7 @@ a.anchor {
   display: block;
   position: relative;
   visibility: hidden;
-  margin-bottom: 1em;
+  margin-bottom: 1.3em;
 }
 
 .aboutMeBox {
@@ -50,7 +50,7 @@ a.anchor {
 
 .username {
   font-weight: normal;
-  font-size: 3em;
+  font-size: 2.5em;
   white-space: nowrap;
 }
 
@@ -99,11 +99,9 @@ a.anchor {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (min-width: 768px) {
-  .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+@media only screen and (min-width: 600px) {
+  .username {
+    font-size: 3em;
   }
 
   .aboutMeBox {
@@ -116,5 +114,13 @@ a.anchor {
   .aboutMeBox > .socialContainer {
     position: relative;
     margin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
