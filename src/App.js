@@ -21,11 +21,17 @@ function App() {
     <div className="container">
       <Header />
       <div className="firstContent">
-        <h1 className="username titles">
-          Marcus Haaland
-        </h1>
-        <p className="aboutme">Nysgjerrig informatikkstudent med bakgrunn innen psykologi.</p>
-        <SocialContainer />
+        <div className="aboutMeBox">
+          <h1 className="username titles">
+            Marcus Haaland
+          </h1>
+          <p className="aboutMe">Informatikkstudent med bachelor i psykologi.</p>
+          <p className="aboutMe">Liker å lære nye ting og å drikke kaffe,</p>
+          <p className="aboutMe">gjerne i kombinasjon.</p>
+          <SocialContainer />
+          
+        </div>
+        <a className="btn" href="#erfaring">La oss bli kjent!</a>
       </div>
       <div className="content">
         <a className="anchor" id="erfaring" href="#erfaring">Hidden text</a>

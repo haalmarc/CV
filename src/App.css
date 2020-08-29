@@ -20,9 +20,11 @@ hr {
 }
 
 .firstContent {
-  background-color: #1b2a40;
+  background-image: url('./images/coffeeLaptop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   color: white;
-  padding: 2em;
   text-align: center;
 }
 
@@ -34,10 +36,24 @@ a.anchor {
   display: block;
   position: relative;
   visibility: hidden;
+  margin-bottom: 1em;
+}
+
+.aboutMeBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutMe {
+  font-size: 17px;
 }
 
 .username {
   font-weight: normal;
+  font-size: 3em;
+  white-space: nowrap;
 }
 
 .container {
@@ -48,8 +64,38 @@ a.anchor {
   padding: 2em;
 }
 
+.btn {
+  border: 2px solid white;
+  border-radius: 2em;
+  background: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: rgb(255, 255, 255, 0.3);
+  color: black;
+}
+
+.firstContent > .btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .footer > .socialContainer {
   height: 100px;
+  background-color: #1b2a40;
+}
+
+.aboutMeBox > .socialContainer {
+  margin-top: 1em;
 }
 
 @media screen and (min-width: 992px){
