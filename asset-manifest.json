@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ece2f599.chunk.css",
+    "main.css": "/static/css/main.0ccbc4e5.chunk.css",
     "main.js": "/static/js/main.298168f2.chunk.js",
     "main.js.map": "/static/js/main.298168f2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e89362ac.js",
@@ -8,9 +8,9 @@
     "static/js/2.58440fa6.chunk.js": "/static/js/2.58440fa6.chunk.js",
     "static/js/2.58440fa6.chunk.js.map": "/static/js/2.58440fa6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79e0092a3ef6e05aec76cfe395f92778.js": "/precache-manifest.79e0092a3ef6e05aec76cfe395f92778.js",
+    "precache-manifest.c1995b33db497c2df1ec0fe3f0a00086.js": "/precache-manifest.c1995b33db497c2df1ec0fe3f0a00086.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ece2f599.chunk.css.map": "/static/css/main.ece2f599.chunk.css.map",
+    "static/css/main.0ccbc4e5.chunk.css.map": "/static/css/main.0ccbc4e5.chunk.css.map",
     "static/media/App.css": "/static/media/coffeeLaptop.6c501622.jpg",
     "static/media/dansenettside.JPG": "/static/media/dansenettside.682f32ac.JPG",
     "static/media/ibok.png": "/static/media/ibok.be191938.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.e89362ac.js",
     "static/js/2.58440fa6.chunk.js",
-    "static/css/main.ece2f599.chunk.css",
+    "static/css/main.0ccbc4e5.chunk.css",
     "static/js/main.298168f2.chunk.js"
   ]
 }
