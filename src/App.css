@@ -94,7 +94,7 @@ a.anchor {
 
 .aboutMeBox > .socialContainer {
   position: absolute;
-  top: 45%;
+  top: 45vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -106,7 +106,7 @@ a.anchor {
 
   .aboutMeBox {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
   }
