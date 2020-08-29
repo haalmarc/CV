@@ -100,6 +100,12 @@ a.anchor {
 }
 
 @media only screen and (min-width: 768px) {
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .aboutMeBox {
     position: absolute;
     top: 50%;
@@ -111,12 +117,4 @@ a.anchor {
     position: relative;
     margin-top: 2em;
   }
-}
-
-@media screen and (min-width: 992px){
-  .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }  
 }
